@@ -14,11 +14,11 @@ h6{
 }
 
 .divLeft{
-    width: 35%;
+    width: 45%;
 }
 
 .divLeft span{
-    font-size: .5rem;
+    font-size: .7rem;
 }
 
 .divRight{
@@ -44,7 +44,143 @@ h6{
     padding: 0 3px 0 3px;
     border: none;
     font-size: .8rem;
-    background-color: #B59788;
+    background-color: nav{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2% 0 2%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: sans-serif;
+    color: #dda751;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    font-size: .7rem;
+}
+
+button {
+    padding: 3px;
+    border: none;
+    font-size: .8rem;
+    background-color: #dda751;
     color: #fff;
     border-radius: 3px;
+    width: 25%;
+};
+    color: #fff;
+    border-radius: 3px;
+}
+@media (min-width: 500px) {
+    section{
+        height: 35px;
+        padding: 0 1vw 0 1vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #f4f4f4;
+        margin-bottom: 1vh;
+    }
+    
+    h6{
+        width: 100%;
+        font-size: .7rem;
+        text-align: center;
+    }
+    
+    .divLeft{
+        width: 50%;
+        height: 50%;
+    }
+    
+    .divLeft span{
+        font-size: 70%;
+    }
+    
+    .divRight{
+        width: 50%;
+        text-align: right;
+        font-size: .7rem;
+    }
+    
+    .divRight h5{
+        margin-bottom: 1vh;
+        font-size: 10px;
+    }
+    
+    .divRight input {
+        width: 60%;
+        margin-bottom: .2vh;
+        font-size: .8rem;
+        border: none;
+        padding: 0 .5rem 0 .5rem;
+    }
+    
+    .divRight button {
+        width: 60%;
+        padding: 0 3px 0 3px;
+        border: none;
+        font-size: .8rem;
+        background-color: nav{
+        flex-wrap: wrap;
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2% 0 2%;
+    }
+    
+    section {
+        display: flex;
+        align-items: center;
+        width: 75%;
+    }
+    
+    h1 {
+        font-size: 1rem;
+        font-weight: sans-serif;
+        color: #dda751;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 60%;
+        font-size: .7rem;
+    }
+    
+    button {
+        padding: 3px;
+        border: none;
+        font-size: .8rem;
+        background-color: #dda751;
+        color: #fff;
+        border-radius: 3px;
+        width: 25%;
+    };
+        color: #fff;
+        border-radius: 3px;
+    }
+    
 }

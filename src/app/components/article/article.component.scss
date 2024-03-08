@@ -16,3 +16,26 @@ span{
 h5{
     color: #B59788;
 }
+
+@media (min-width: 500px) { 
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2px;
+        background-color: #f4f4f4;
+        height: 30px;
+    }
+    
+    span{
+        text-align: center;
+        font-size: .6rem;
+        margin-bottom: .5vh;
+    }
+    
+    h5{
+        color: #e5cfaa;
+    }
+    
+}
