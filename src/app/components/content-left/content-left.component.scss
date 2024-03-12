@@ -26,10 +26,10 @@ p {
 fieldset{
     padding: 0.15rem;
     border: none;
-    display: flex;
+    // display: flex;
     width: 50%;
     border-radius: 3px;
-    background-color: #f4f4f4;
+    //background-color: #f4f4f4;
 }
 
 fieldset span {
@@ -50,6 +50,19 @@ fieldset button {
 }
 
 @media (min-width: 500px) {
+    h2{
+        font-size: 2.5rem;
+        font-weight: 800;
+        width: 50%;
+        line-height: 110%;
+    }
+    p {
+        width: 35%;
+        font-size: 1.2rem;
+        font-weight: bold;
+        line-height: 120%;
+    }
+  
     fieldset span {
         font-size: 7px;
         width: 50%;
@@ -65,6 +78,6 @@ fieldset button {
         color: #fff;
         border-radius: 3px;
         width: 50%;
-        height: 20px;
+        height: 30px;
     }
 }
